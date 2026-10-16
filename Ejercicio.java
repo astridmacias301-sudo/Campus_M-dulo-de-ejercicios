@@ -1,5 +1,3 @@
-
-
 public class Ejercicio {
     private int idEjercicio;
     private String titulo;
@@ -9,7 +7,7 @@ public class Ejercicio {
     // Constructor vacío
     public Ejercicio() {}
 
-    // Constructor lleno
+    // Constructor con parámetros
     public Ejercicio(int idEjercicio, String titulo, String descripcion, String nivelDificultad) {
         this.idEjercicio = idEjercicio;
         this.titulo = titulo;
@@ -18,15 +16,35 @@ public class Ejercicio {
     }
 
     // Getters y Setters
-    public int getIdEjercicio() { return idEjercicio; }
-    public void setIdEjercicio(int idEjercicio) { this.idEjercicio = idEjercicio; }
+    public int getIdEjercicio() {
+        return idEjercicio;
+    }
 
-    public String getTitulo() { return titulo; }
-    public void setTitulo(String titulo) { this.titulo = titulo; }
+    public void setIdEjercicio(int idEjercicio) {
+        this.idEjercicio = idEjercicio;
+    }
 
-    public String getDescripcion() { return descripcion; }
-    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+    public String getTitulo() {
+        return titulo;
+    }
 
-    public String getNivelDificultad() { return nivelDificultad; }
-    public void setNivelDificultad(String nivelDificultad) { this.nivelDificultad = nivelDificultad; }
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getNivelDificultad() {
+        return nivelDificultad;
+    }
+
+    public void setNivelDificultad(String nivelDificultad) {
+        this.nivelDificultad = nivelDificultad;
+    }
 }
